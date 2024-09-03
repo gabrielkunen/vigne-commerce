@@ -1,0 +1,3 @@
+dotnet ef migrations add NOME_MIGRATION --project VigneCommerce.Data --startup-project VigneCommerce.Api
+dotnet ef migrations remove --project VigneCommerce.Data --startup-project VigneCommerce.Api
+dotnet ef database update --project VigneCommerce.Data --startup-project VigneCommerce.Api

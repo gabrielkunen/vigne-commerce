@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VigneCommerce.Domain", "src\VigneCommerce.Domain\VigneCommerce.Domain.csproj", "{850C7BDE-43C5-45DD-B24F-093566AB38FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{840DD17A-5293-49CC-9616-9A2A4227B594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{5A8BDB45-1B1C-484D-B377-7E995AFDC119}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VigneCommerce.Application", "src\VigneCommerce.Application\VigneCommerce.Application.csproj", "{0463102B-6DB0-4165-B630-DA7DB6E32EE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{1748F13E-04B4-479A-9D31-FA9F40FDE1FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VigneCommerce.Data", "src\VigneCommerce.Data\VigneCommerce.Data.csproj", "{0DB95ED5-DA57-4C20-914B-85A28D0CD73A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{5C5B9F52-15AB-4D1D-A793-2236301F6360}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VigneCommerce.Api", "src\VigneCommerce.Api\VigneCommerce.Api.csproj", "{023B525E-EF98-4114-A11F-3AE271CD0828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{5DE6AB1C-E60C-4916-8807-93F0294E1256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{850C7BDE-43C5-45DD-B24F-093566AB38FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850C7BDE-43C5-45DD-B24F-093566AB38FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850C7BDE-43C5-45DD-B24F-093566AB38FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850C7BDE-43C5-45DD-B24F-093566AB38FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0463102B-6DB0-4165-B630-DA7DB6E32EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0463102B-6DB0-4165-B630-DA7DB6E32EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0463102B-6DB0-4165-B630-DA7DB6E32EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0463102B-6DB0-4165-B630-DA7DB6E32EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB95ED5-DA57-4C20-914B-85A28D0CD73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB95ED5-DA57-4C20-914B-85A28D0CD73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB95ED5-DA57-4C20-914B-85A28D0CD73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB95ED5-DA57-4C20-914B-85A28D0CD73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023B525E-EF98-4114-A11F-3AE271CD0828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023B525E-EF98-4114-A11F-3AE271CD0828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023B525E-EF98-4114-A11F-3AE271CD0828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023B525E-EF98-4114-A11F-3AE271CD0828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{850C7BDE-43C5-45DD-B24F-093566AB38FF} = {840DD17A-5293-49CC-9616-9A2A4227B594}
+		{0463102B-6DB0-4165-B630-DA7DB6E32EE5} = {5A8BDB45-1B1C-484D-B377-7E995AFDC119}
+		{0DB95ED5-DA57-4C20-914B-85A28D0CD73A} = {1748F13E-04B4-479A-9D31-FA9F40FDE1FF}
+		{023B525E-EF98-4114-A11F-3AE271CD0828} = {5C5B9F52-15AB-4D1D-A793-2236301F6360}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7547979D-063F-48B5-88F4-15A731BD9F74}
+	EndGlobalSection
+EndGlobal

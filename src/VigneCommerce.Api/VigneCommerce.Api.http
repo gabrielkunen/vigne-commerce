@@ -1,0 +1,6 @@
+@VigneCommerce.Api_HostAddress = http://localhost:5076
+
+GET {{VigneCommerce.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
